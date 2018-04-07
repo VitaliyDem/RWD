@@ -1,0 +1,59 @@
+@media only screen and (max-width: 375px) {
+	.container {
+		justify-content: space-between;
+	}
+	
+	main {
+		flex-wrap: wrap;
+	}
+	
+	aside {
+		flex:100%;
+		display: flex;
+		flex-flow: row;
+		padding: 35px;
+		justify-content: space-between;
+	}
+	
+	.flex-container {
+		flex:100%;
+		padding: 25px;
+	}
+	
+	.nav {
+		flex:30%;
+	}
+	
+	.nav:nth-child(n+4) {
+		display: none;
+	}
+	
+	.image {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 25px;
+	}
+	.title, .text {
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	
+	.footer-van {
+		padding:15px;
+		flex-direction: column;
+	}
+	.f-van {
+		flex:100%;
+		margin-bottom: 30px;
+	}
+	
+	.f-1 {
+		width: 50%;
+		
+	}
+	.f-1:nth-child(n+2) {
+		display: none;
+	}
+}
+

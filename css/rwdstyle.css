@@ -1,0 +1,134 @@
+* {
+	
+	box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+ 
+
+ 
+  
+}
+
+header {
+	width: 100%;
+	height: 160px;
+	background:#36C3FF
+	
+}
+	
+  
+.container {
+	margin: 0;
+	padding: 1em;
+	justify-content: space-around;
+	max-width: 1240px;
+	display: flex;
+	
+}
+
+.logo-block {
+	background-color: #009BDD;
+	width: 35%;
+	height: 70px;
+	margin-top: 25px;
+}
+
+.menu-block {
+	background-color: #00AEFF;
+	width: 35%;
+	height: 70px;
+	margin-top: 25px;
+}
+
+
+main {
+	
+	display: flex;
+	max-width: 1240px;
+	margin: 0 auto;	
+}
+
+aside {
+	flex: 20%;
+	display: flex;
+	flex-direction: column;
+	padding: 35px;
+	background-color: #FF5607;
+}
+
+.nav {
+	background-color: #E84900;
+	margin: 15px;
+	height: 5%;
+}
+
+.flex-container {
+	margin: auto;
+	padding: 20px;
+	flex: 0 2 75%;
+	
+}
+
+
+.image {
+	width: 40%;
+	height: 250px;
+	background-color: #ffbd00;
+	float: left;
+	margin-right: 5%;
+}
+
+.title {
+	height: 5%;
+	background-color: #9d9d9d;
+	overflow: hidden;
+	
+}
+
+.text {
+	height: 30px;
+	background-color: #d5d5d5;
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+footer {
+	
+	background-color: #00d169;
+
+	
+}
+
+.footer-van {
+	
+	max-width: 1240px;
+	margin: auto;
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	justify-content: space-between;
+	
+}
+
+.f-van {
+	flex: 0 20%;
+	padding: 15px;
+	background-color: #02a554;
+}
+
+
+.f-1 {
+	background-color: #038042;
+	height: 25px;
+	margin-bottom: 0.7em;
+}
+
+
+/*
+For iphone 375px
+@media screen and (max-width: 375px) {
+} Next file --> mediastyle.css
+*/
